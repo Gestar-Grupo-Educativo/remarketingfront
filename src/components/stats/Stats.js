@@ -32,7 +32,7 @@ const handleOrdenar = (columna) => {
 
       try {
         setCargando(true);
-        const response = await fetch(`http://localhost:5000/api/stats/?${query.toString()}`);
+        const response = await fetch(`https://backremarketing1.onrender.com//api/stats/?${query.toString()}`);
         const data = await response.json();
 
         if (!Array.isArray(data)) {
