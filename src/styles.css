@@ -1,0 +1,75 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #eeeeee;
+  --card-bg: #1e1e1e;
+  --accent-color: #00c8ff;
+  --border-color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav a {
+  margin-right: 2rem;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+h1, h2, h3 {
+  color: var(--accent-color);
+}
+
+input, textarea, select {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  color: #000;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #00a0cc;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2rem 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
